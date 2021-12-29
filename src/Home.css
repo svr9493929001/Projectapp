@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&family=Roboto:wght@400;700&family=Twinkle+Star&display=swap");
+
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+.main-menu > a {
+  color: white;
+  text-decoration: none;
+}
+.main-content {
+  margin: 10px;
+}
+
+.home_Page img {
+  width: 100%;
+}
+.home_Page h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+/* movie Detailes */
+.detailes h5{
+    padding: 20px;
+}
+.detailes button{
+    margin: 20px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+/* Recipes */
+.iteam {
+  margin: 20px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card{
+    margin: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie-form {
+    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: "100vh"
+}
